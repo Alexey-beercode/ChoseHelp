@@ -10,7 +10,7 @@
     <Compile Update="Finder2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Finder3cs.cs">
+    <Compile Update="Finder3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Menu.cs">

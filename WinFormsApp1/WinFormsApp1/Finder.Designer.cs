@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.SuspendLayout();
+            next=new Button();
+            last=new Button();
+            menu=new Button();
+            label1= new Label();
             // 
             // Finder
             // 
