@@ -1,6 +1,6 @@
 ﻿namespace HelperForm
 {
-    partial class Finder
+    sealed partial class Finder
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Finder";
+            this.SuspendLayout();
+            // 
+            // Finder
+            // 
+            this.ClientSize = new System.Drawing.Size(933, 495);
+            this.Name = "Finder";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Label label1;
+        private Button next;
+        private Button exit;
+        private Button last;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
+        private RadioButton radioButton3;
+        private RadioButton radioButton4;
+        private RadioButton radioButton5;
+        private RadioButton radioButton6;
+        private RadioButton radioButton7;
+        private RadioButton radioButton8;
+        private RadioButton radioButton9;
+        private RadioButton radioButton10;
+        private Panel panel1;
+        private RadioButton radioButton11;
+        private RadioButton radioButton12;
+        private RadioButton radioButton13;
+        private RadioButton radioButton14;
+        private RadioButton radioButton15;
+        private RadioButton radioButton16;
+        private RadioButton radioButton17;
+        private RadioButton radioButton18;
+        private RadioButton radioButton19;
+        private RadioButton radioButton20;
     }
 }

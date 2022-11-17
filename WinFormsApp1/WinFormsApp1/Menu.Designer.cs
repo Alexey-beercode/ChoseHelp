@@ -62,4 +62,3 @@
         private Label label1;
     }
 }
-}
