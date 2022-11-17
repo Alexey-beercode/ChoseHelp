@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperForm", "WinFormsApp1\HelperForm.csproj", "{B3A4ADEB-D37A-48B4-AAF8-53AEC5B29239}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91F91059-83C1-421B-BA7D-9034C8A472DF} = {91F91059-83C1-421B-BA7D-9034C8A472DF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialityFinder", "SpecialityFinder\SpecialityFinder.csproj", "{91F91059-83C1-421B-BA7D-9034C8A472DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A4ADEB-D37A-48B4-AAF8-53AEC5B29239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A4ADEB-D37A-48B4-AAF8-53AEC5B29239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A4ADEB-D37A-48B4-AAF8-53AEC5B29239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A4ADEB-D37A-48B4-AAF8-53AEC5B29239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F91059-83C1-421B-BA7D-9034C8A472DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F91059-83C1-421B-BA7D-9034C8A472DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F91059-83C1-421B-BA7D-9034C8A472DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F91059-83C1-421B-BA7D-9034C8A472DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6571C4B5-7B55-4AD4-9054-44EE94857C77}
+	EndGlobalSection
+EndGlobal
