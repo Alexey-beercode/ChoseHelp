@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -47,18 +49,35 @@
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(1182, 753);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.Load += new System.EventHandler(Menu_Load);
-            this.Load += new System.EventHandler(Second_Load);
-
+            //
+            //button1
+            //
+            button1.Size = new Size(300, 150);
+            button1.Text = "Найти специальность\nпо параметрам";
+            button1.BackColor = Color.RosyBrown;
+            button1.Location = new Point(100, 450);
+            button1.Click += Button1_Click;
+            //
+            //button2
+            //
+            button2.Size = new Size(300, 150);
+            button2.Text = "Выйти из программы";
+            button2.BackColor = Color.RosyBrown;
+            button2.Location = new Point(800, 450);
+            button2.Click += Button2_Click;
         }
 
         #endregion
 
         private Label label1;
+        private Button button1;
+        private Button button2;
     }
 }
